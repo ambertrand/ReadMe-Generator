@@ -10,5 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambertrand/ReadMe-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ambertrand/ReadMe-Generator/issues"
+  },
+  "homepage": "https://github.com/ambertrand/ReadMe-Generator#readme"
 }
