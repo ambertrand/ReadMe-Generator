@@ -1,4 +1,4 @@
-# sdfd
+# Alex's Project
 
     ## Table of Contents
         * [About this Project](#about-the-project)
@@ -12,10 +12,10 @@
 
 
     ## About this Project
-    sdf
+    Awesome
 
     ### Deployed Web App
-    [sdfd](undefined)
+    [Alex's Project](undefined)
 
     ## Installation Instructions
     undefined
