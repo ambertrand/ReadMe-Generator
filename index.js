@@ -1,23 +1,29 @@
 const fs = require('fs');
 const inquirer = require("inquirer");
+const util = require("util");
 
+const writeFileAsync = util.promisify(fs.writeFile);
 
-async function promptUser() {
-    try {
-        const questions = await inquirer.prompt([
+// Function to prompt user with questions to create ReadMe
+function userQuestions() {
+    return inquirer.prompt([
         {
             type: "input",
             message: "What is the title of your project?",
-            name: "projectTitle" 
+            name: "projectTitle"
         },
         {
             type: "input",
-            message: "Please describe your project.", 
+            message: "Please describe your project.",
             name: "description"
         }
     ])
+}
 
-    const markdownTemplate = `# ${projectTitle}
+
+// Generate Readme function
+function generateReadme(answers) {
+    return `# ${answers.projectTitle}
 
     ## Table of Contents
         * [About this Project](#about-the-project)
@@ -28,44 +34,40 @@ async function promptUser() {
         * Questions
         * [Contributing](#contributing)
         * License
-    
-    
+
+
     ## About this Project
-    ${description}
-    
+    ${answers.description}
+
     ### Deployed Web App
-    [Deployed application](https://github.com/ambertrand)
-    
+    [${answers.projectTitle}](${answers.projectLink})
+
     ## Installation Instructions
-    To install necessary dependencies, run the following command:
-    
-    
+    ${answers.installation}
+
+
     ## Usage
-    ${usage}
-    
-    
+    ${answers.usage}
+
+
     ## Tests
-    To run tests, run the following command
-    
-    
+    ${answers.test}
+
+
     ## Questions
     If you have any questions about the repo, open an issue or contact me directly.  You can find my contact info below.
-    
-    
-    ### ${developer}
-        * [${email}](${email})
-        * [https://github.com/${githubUsername}](https://github.com/${githubUsername})
-    
-    ## Contributing
-    ${contributors}
-    
-    ## License
-    This project is licensed under the ${license} License`
 
-        console.log(questions)
-    }catch (err) {
-        console.log(err);
-    }
+
+    ### ${answers.developer}
+        * [${answers.email}](${answers.email})
+        * [https://github.com/${answers.githubUsername}](https://github.com/${answers.githubUsername})
+
+    ## Contributing
+    ${answers.contributors}
+
+    ## License
+    This project is licensed under the ${answers.license} License`
+
 }
 
 
@@ -73,15 +75,20 @@ async function promptUser() {
 
 
 
+userQuestions().then(function(answers) {
+    const text = generateReadme(answers);
+
+    return writeFileAsync("ReadMe.md", text);
+  })
+  .then(function() {
+    console.log("Successfully wrote to Readme");
+  })
+  .catch(function(err) {
+    console.log(err);
+  });
+
 // function call to initialize program
-promptUser();
-
-
-
-
-
-
-
+// userQuestions();
 
 // // array of questions for user
 // const questions = [
@@ -96,4 +103,3 @@ promptUser();
 // function init() {
 
 // }
-
