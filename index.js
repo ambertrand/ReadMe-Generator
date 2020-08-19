@@ -16,7 +16,50 @@ function userQuestions() {
             type: "input",
             message: "Please describe your project.",
             name: "description"
+        },
+        {
+            type: "input",
+            message: "What is the link to your project?",
+            name: "projectLink"
+        },
+        {
+            type: "input",
+            message: "What are the instructions for installation?",
+            name: "installation"
+        },
+        {
+            type: "input",
+            message: "How do you test this application?",
+            name: "test"
+        },
+        {
+            type: "input",
+            message: "What is the developers name?",
+            name: "developer"
+        },
+        {
+            type: "input",
+            message: "What is the developers email?",
+            name: "email"
+        },
+        {
+            type: "input",
+            message: "What is the developers GitHub username?",
+            name: "githubUsername"
+        },
+        {
+            type: "input",
+            message: "Who else contributed to this project?",
+            name: "contributors"
         }
+        // {
+        //     type: "list",
+        //     message: "What license would you like to use for your project?",
+        //     name: "license"
+        //     choices: [
+
+        //     ]
+        // },
     ])
 }
 

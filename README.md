@@ -1,4 +1,4 @@
-# Alex's Project
+# Alex's awesome project
 
     ## Table of Contents
         * [About this Project](#about-the-project)
@@ -12,13 +12,13 @@
 
 
     ## About this Project
-    Awesome
+    Its's awesome
 
     ### Deployed Web App
-    [Alex's Project](undefined)
+    [Alex's awesome project](https://github.com/ambertrand/ReadMe-Generator)
 
     ## Installation Instructions
-    undefined
+    clone from repo and use NPM install to download dependencies
 
 
     ## Usage
@@ -26,19 +26,19 @@
 
 
     ## Tests
-    undefined
+    no need
 
 
     ## Questions
     If you have any questions about the repo, open an issue or contact me directly.  You can find my contact info below.
 
 
-    ### undefined
-        * [undefined](undefined)
-        * [https://github.com/undefined](https://github.com/undefined)
+    ### Alex Bertrand
+        * [email@otheremail.com](email@otheremail.com)
+        * [https://github.com/ambertrand](https://github.com/ambertrand)
 
     ## Contributing
-    undefined
+    nobody
 
     ## License
     This project is licensed under the undefined License
