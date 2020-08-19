@@ -1,21 +1,17 @@
-# Project Title
+# ${projectTitle}
 
 ## Table of Contents
-    * About this Project
-        * Description
-        * Deployed Web App
-    * Installation
-    * Usage
-    * License
-    * Contributing
-    * Tests
+    * [About this Project](#about-the-project)
+        * [Deployed Web App](#depolyed-web-app)
+    * [Installation Instructions](#installation-instructions)
+    * [Usage](#usage)
+    * [Tests](#tests)
     * Questions
-        * Contact
+    * [Contributing](#contributing)
+    * License
 
 
 ## About this Project
-
-### Description
 ${description}
 
 ### Deployed Web App
@@ -26,9 +22,7 @@ To install necessary dependencies, run the following command:
 
 
 ## Usage
-
-
-## Contributing
+${usage}
 
 
 ## Tests
@@ -39,10 +33,12 @@ To run tests, run the following command
 If you have any questions about the repo, open an issue or contact me directly.  You can find my contact info below.
 
 
-### Contact
-    * ${email}
-    * https://github.com/${githubUsername}
+### ${developer}
+    * [${email}](${email})
+    * [https://github.com/${githubUsername}](https://github.com/${githubUsername})
 
+## Contributing
+${contributors}
 
 ## License
 This project is licensed under the ${license} License
