@@ -121,7 +121,7 @@ function generateReadme(answers) {
 userQuestions().then(function(answers) {
     const text = generateReadme(answers);
 
-    return writeFileAsync("ReadMe.md", text);
+    return writeFileAsync("README.md", text);
   })
   .then(function() {
     console.log("Successfully wrote to Readme");
