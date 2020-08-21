@@ -1,7 +1,7 @@
-# My project
+# Alex project
 
 
-![Generic badge](https://img.shields.io/badge/License-The_Unlicense-<COLOR>.svg)
+![Generic badge](https://img.shields.io/badge/License-MIT_License-<COLOR>.svg)
 
 ## Table of Contents
 * [About this Project](#about-the-project)
@@ -15,13 +15,13 @@
 
 
 ## About this Project
-awesome
+something
 
 ### Deployed Web App
-[My project](https://github.com/ambertrand/ReadMe-Generator)
+[Alex project](https://github.com/ambertrand/ReadMe-Generator)
 
 ## Installation Instructions
-insatll it
+instlal it
 
 
 ## Usage
@@ -36,13 +36,13 @@ test it
 If you have any questions about the repo, open an issue or contact me directly.  You can find my contact info below.
 
 
-### Alex Bertrand
-* [asldf@gskdj.com](asldf@gskdj.com)
-* [https://github.com/abertardn](https://github.com/abertardn)
+### Alex Bertardn
+* [lskdjfsd@ksdlf.com](lskdjfsd@ksdlf.com)
+* [https://github.com/abertradn](https://github.com/abertradn)
 
 ## Contributing
 nobody
 
 ## License
-This project is licensed under the The Unlicense License
+This project is licensed under the MIT License License
 
