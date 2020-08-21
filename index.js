@@ -10,7 +10,6 @@ function userQuestions() {
     return inquirer.prompt(questions)
 }
 
-
 const questions = [
         {
             type: "input",
@@ -68,9 +67,9 @@ const questions = [
             name: "license",
             choices: [
                 "MIT",
-                "Apache License 2.0",
-                "GNU General Public License v3.0",
-                "The Unilicense"
+                "Apache",
+                "GNU",
+                "Unlicense"
             ],
         },
     ]
@@ -87,20 +86,3 @@ userQuestions().then(function(answers) {
   .catch(function(err) {
     console.log(err);
   });
-
-// function call to initialize program
-// userQuestions();
-
-// // array of questions for user
-// const questions = [
-
-// ];
-
-// // function to write README file
-// function writeToFile(fileName, data) {
-// }
-
-// // function to initialize program
-// function init() {
-
-// }

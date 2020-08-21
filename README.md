@@ -1,6 +1,6 @@
-# Alex's Project
+# Alex' project
 
-![GNU General Public License v3.0](https://img.shields.io/badge/license-GNU General Public License v3.0-blue)
+![Apache](https://img.shields.io/badge/license-Apache-blue)
 
 ## Table of Contents
 * [About this Project](#about-the-project)
@@ -14,10 +14,10 @@
 
 
 ## About this Project
-It's awesome
+awesome
 
 ### Deployed Web App
-[Alex's Project](https://github.com/ambertrand/ReadMe-Generator)
+[Alex' project](https://github.com/ambertrand/ReadMe-Generator)
 
 ## Installation Instructions
 install it
@@ -28,7 +28,7 @@ use it
 
 
 ## Tests
-no need
+test it
 
 
 ## Questions
@@ -36,12 +36,12 @@ If you have any questions about the repo, open an issue or contact me directly. 
 
 
 ### Alex Bertrand
-* [abertrdand@gmail.com](abertrdand@gmail.com)
+* [abertarnd@skdlgs.com](abertarnd@skdlgs.com)
 * [https://github.com/abertrand](https://github.com/abertrand)
 
 ## Contributing
 nobody
 
 ## License
-This project is licensed under the GNU General Public License v3.0 License
+This project is licensed under the Apache License
 
