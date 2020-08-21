@@ -1,7 +1,7 @@
-# Alex project
+# Alex Bertrand
 
-
-![Generic badge](https://img.shields.io/badge/License-MIT_License-<COLOR>.svg)
+![MIT License](https://img.shields.io/badge/license-MIT License-blue)
+[![Generic badge](https://img.shields.io/badge/License-MIT_License-<COLOR>.svg)](https://shields.io/)
 
 ## Table of Contents
 * [About this Project](#about-the-project)
@@ -15,13 +15,13 @@
 
 
 ## About this Project
-something
+awesome
 
 ### Deployed Web App
-[Alex project](https://github.com/ambertrand/ReadMe-Generator)
+[Alex Bertrand](https://github.com/ambertrand/ReadMe-Generator)
 
 ## Installation Instructions
-instlal it
+install it
 
 
 ## Usage
@@ -36,9 +36,9 @@ test it
 If you have any questions about the repo, open an issue or contact me directly.  You can find my contact info below.
 
 
-### Alex Bertardn
-* [lskdjfsd@ksdlf.com](lskdjfsd@ksdlf.com)
-* [https://github.com/abertradn](https://github.com/abertradn)
+### Alex Bertadn
+* [sklre@gmadl.com](sklre@gmadl.com)
+* [https://github.com/abertrand](https://github.com/abertrand)
 
 ## Contributing
 nobody
