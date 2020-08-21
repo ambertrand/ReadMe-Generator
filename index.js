@@ -56,15 +56,18 @@ function userQuestions() {
             type: "input",
             message: "Who else contributed to this project?",
             name: "contributors"
-        }
-        // {
-        //     type: "list",
-        //     message: "What license would you like to use for your project?",
-        //     name: "license"
-        //     choices: [
-
-        //     ]
-        // },
+        },
+        {
+            type: "list",
+            message: "Select a license for your project.  It is recommended that you save a seperate LICENSE file in the root of the repository.",
+            name: "license",
+            choices: [
+                {
+                    title: "MIT",
+                    value: 'mit'
+                },
+            ]
+        },
     ])
 }
 
@@ -72,6 +75,7 @@ function userQuestions() {
 // Generate Readme function
 function generateReadme(answers) {
     return `# ${answers.projectTitle}
+    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
     ## Table of Contents
         * [About this Project](#about-the-project)
