@@ -79,7 +79,7 @@ const questions = [
 userQuestions().then((answers) => {
     const text = generateReadme(answers);
 
-    return writeFileAsync("README.md", text);
+    return writeFileAsync("README-demo.md", text);
   })
   .then(() => {
     console.log("Successfully wrote to Readme");
