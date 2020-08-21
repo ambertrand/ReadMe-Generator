@@ -1,6 +1,7 @@
-# Alex' project
+# Alex's Project
 
-![Apache](https://img.shields.io/badge/license-Apache-blue)
+
+[![Generic badge](https://img.shields.io/badge/License-Apache_License_2.0-<COLOR>.svg)]
 
 ## Table of Contents
 * [About this Project](#about-the-project)
@@ -17,7 +18,7 @@
 awesome
 
 ### Deployed Web App
-[Alex' project](https://github.com/ambertrand/ReadMe-Generator)
+[Alex's Project](https://github.com/ambertrand/ReadMe-Generator)
 
 ## Installation Instructions
 install it
@@ -36,12 +37,12 @@ If you have any questions about the repo, open an issue or contact me directly. 
 
 
 ### Alex Bertrand
-* [abertarnd@skdlgs.com](abertarnd@skdlgs.com)
+* [asldkre@skdgsd.com](asldkre@skdgsd.com)
 * [https://github.com/abertrand](https://github.com/abertrand)
 
 ## Contributing
 nobody
 
 ## License
-This project is licensed under the Apache License
+This project is licensed under the Apache License 2.0 License
 

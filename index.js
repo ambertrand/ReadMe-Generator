@@ -10,6 +10,7 @@ function userQuestions() {
     return inquirer.prompt(questions)
 }
 
+// Array of questions for user
 const questions = [
         {
             type: "input",
@@ -66,23 +67,23 @@ const questions = [
             message: "Select a license for your project.  It is recommended that you save a seperate LICENSE file in the root of the repository.",
             name: "license",
             choices: [
-                "MIT",
-                "Apache",
-                "GNU",
-                "Unlicense"
+                "MIT License",
+                "Apache License 2.0",
+                "GNU GPLv3",
+                "The Unlicense"
             ],
         },
     ]
 
-
-userQuestions().then(function(answers) {
+// Calls function to write ReadMe file
+userQuestions().then((answers) => {
     const text = generateReadme(answers);
 
     return writeFileAsync("README.md", text);
   })
-  .then(function() {
+  .then(() => {
     console.log("Successfully wrote to Readme");
   })
-  .catch(function(err) {
+  .catch((err) => {
     console.log(err);
   });

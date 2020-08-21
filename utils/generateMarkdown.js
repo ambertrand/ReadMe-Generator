@@ -2,7 +2,8 @@
 function generateReadme(answers) {
   return `# ${answers.projectTitle}
 
-![${answers.license}](https://img.shields.io/badge/license-${answers.license}-blue)
+
+[![Generic badge](https://img.shields.io/badge/License-${answers.license.replace(/ /g, "_")}-<COLOR>.svg)]
 
 ## Table of Contents
 * [About this Project](#about-the-project)
@@ -51,3 +52,5 @@ This project is licensed under the ${answers.license} License
 }
 
 module.exports = generateReadme;
+
+// ![${answers.license}](https://img.shields.io/badge/license-${answers.license}-blue)
