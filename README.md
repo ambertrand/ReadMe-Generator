@@ -1,7 +1,6 @@
-# Alex Bertrand
+# Alex Project
 
-![MIT License](https://img.shields.io/badge/license-MIT License-blue)
-[![Generic badge](https://img.shields.io/badge/License-MIT_License-<COLOR>.svg)](https://shields.io/)
+![GNUGPLv3](https://img.shields.io/badge/license-GNUGPLv3-blue)
 
 ## Table of Contents
 * [About this Project](#about-the-project)
@@ -15,10 +14,10 @@
 
 
 ## About this Project
-awesome
+something
 
 ### Deployed Web App
-[Alex Bertrand](https://github.com/ambertrand/ReadMe-Generator)
+[Alex Project](https://github.com/ambertrand/ReadMe-Generator)
 
 ## Installation Instructions
 install it
@@ -36,13 +35,13 @@ test it
 If you have any questions about the repo, open an issue or contact me directly.  You can find my contact info below.
 
 
-### Alex Bertadn
-* [sklre@gmadl.com](sklre@gmadl.com)
+### Alex Bertrand
+* [ksldjf@gmail.com](ksldjf@gmail.com)
 * [https://github.com/abertrand](https://github.com/abertrand)
 
 ## Contributing
 nobody
 
 ## License
-This project is licensed under the MIT License License
+This project is licensed under the GNUGPLv3 License
 

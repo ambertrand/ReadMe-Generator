@@ -67,10 +67,10 @@ const questions = [
             message: "Select a license for your project.  It is recommended that you save a seperate LICENSE file in the root of the repository.",
             name: "license",
             choices: [
-                "MIT License",
-                "Apache License 2.0",
-                "GNU GPLv3",
-                "The Unlicense"
+                "MIT",
+                "Apache",
+                "GNUGPLv3",
+                "Unlicense"
             ],
         },
     ]

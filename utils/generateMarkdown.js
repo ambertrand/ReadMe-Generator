@@ -3,7 +3,6 @@ function generateReadme(answers) {
   return `# ${answers.projectTitle}
 
 ![${answers.license}](https://img.shields.io/badge/license-${answers.license}-blue)
-[![Generic badge](https://img.shields.io/badge/License-${answers.license.replace(/ /g, "_")}-<COLOR>.svg)](https://shields.io/)
 
 ## Table of Contents
 * [About this Project](#about-the-project)
