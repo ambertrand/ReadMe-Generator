@@ -76,12 +76,6 @@ const questions = [
     ]
 
 
-
-
-
-
-
-
 userQuestions().then(function(answers) {
     const text = generateReadme(answers);
 

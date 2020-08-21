@@ -1,6 +1,6 @@
-# Alex's project
+# Alex's Project
 
-![MIT](https://img.shields.io/badge/license-MIT-blue)
+![APACHE](https://img.shields.io/badge/license-APACHE-blue)
 
 ## Table of Contents
 * [About this Project](#about-the-project)
@@ -8,19 +8,19 @@
 * [Installation Instructions](#installation-instructions)
 * [Usage](#usage)
 * [Tests](#tests)
-* Questions(#questions)
+* [Questions](#questions)
 * [Contributing](#contributing)
-* License(#license)
+* [License](#license)
 
 
 ## About this Project
-cool project
+something
 
 ### Deployed Web App
-[Alex's project](https://github.com/ambertrand/ReadMe-Generator)
+[Alex's Project](https://github.com/ambertrand/ReadMe-Generator)
 
 ## Installation Instructions
-clone then run npm install to get dependencies
+clone to local machine, then run npm install
 
 
 ## Usage
@@ -36,12 +36,12 @@ If you have any questions about the repo, open an issue or contact me directly. 
 
 
 ### Alex Bertrand
-* [ablasdkjd@lskdfjsd.com](ablasdkjd@lskdfjsd.com)
+* [abertrand@gmail.com](abertrand@gmail.com)
 * [https://github.com/abertrand](https://github.com/abertrand)
 
 ## Contributing
 nobody
 
 ## License
-This project is licensed under the MIT License
+This project is licensed under the APACHE License
 

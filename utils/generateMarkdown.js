@@ -45,7 +45,7 @@ If you have any questions about the repo, open an issue or contact me directly. 
 ${answers.contributors}
 
 ## License
-This project is licensed under the ${answers.license} License``
+This project is licensed under the ${answers.license} License
 
 `;
 }
