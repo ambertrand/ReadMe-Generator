@@ -1,7 +1,7 @@
 # Alex's Project
 
 
-[![Generic badge](https://img.shields.io/badge/License-Apache_License_2.0-<COLOR>.svg)]
+![Generic badge](https://img.shields.io/badge/License-GNU_GPLv3-<COLOR>.svg)
 
 ## Table of Contents
 * [About this Project](#about-the-project)
@@ -15,7 +15,7 @@
 
 
 ## About this Project
-awesome
+soemtihgn
 
 ### Deployed Web App
 [Alex's Project](https://github.com/ambertrand/ReadMe-Generator)
@@ -36,13 +36,13 @@ test it
 If you have any questions about the repo, open an issue or contact me directly.  You can find my contact info below.
 
 
-### Alex Bertrand
-* [asldkre@skdgsd.com](asldkre@skdgsd.com)
-* [https://github.com/abertrand](https://github.com/abertrand)
+### Alex Bertarnd
+* [alsdkfjd@ slkdfj.com](alsdkfjd@ slkdfj.com)
+* [https://github.com/abertradn](https://github.com/abertradn)
 
 ## Contributing
 nobody
 
 ## License
-This project is licensed under the Apache License 2.0 License
+This project is licensed under the GNU GPLv3 License
 
