@@ -1,12 +1,17 @@
 const fs = require('fs');
 const inquirer = require("inquirer");
 const util = require("util");
+const generateReadme = require("./utils/generateMarkdown");
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
 // Function to prompt user with questions to create ReadMe
 function userQuestions() {
-    return inquirer.prompt([
+    return inquirer.prompt(questions)
+}
+
+
+const questions = [
         {
             type: "input",
             message: "What is the title of your project?",
@@ -62,65 +67,15 @@ function userQuestions() {
             message: "Select a license for your project.  It is recommended that you save a seperate LICENSE file in the root of the repository.",
             name: "license",
             choices: [
-                {
-                    title: "MIT",
-                    value: 'mit'
-                },
-            ]
+                "MIT",
+                "APACHE",
+                "GNU",
+                "UNILICENSE"
+            ],
         },
-    ])
-}
+    ]
 
 
-// Generate Readme function
-function generateReadme(answers) {
-    return `# ${answers.projectTitle}
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-    ## Table of Contents
-        * [About this Project](#about-the-project)
-            * [Deployed Web App](#depolyed-web-app)
-        * [Installation Instructions](#installation-instructions)
-        * [Usage](#usage)
-        * [Tests](#tests)
-        * Questions(#questions)
-        * [Contributing](#contributing)
-        * License(#license)
-
-
-    ## About this Project
-    ${answers.description}
-
-    ### Deployed Web App
-    [${answers.projectTitle}](${answers.projectLink})
-
-    ## Installation Instructions
-    ${answers.installation}
-
-
-    ## Usage
-    ${answers.usage}
-
-
-    ## Tests
-    ${answers.test}
-
-
-    ## Questions
-    If you have any questions about the repo, open an issue or contact me directly.  You can find my contact info below.
-
-
-    ### ${answers.developer}
-        * [${answers.email}](${answers.email})
-        * [https://github.com/${answers.githubUsername}](https://github.com/${answers.githubUsername})
-
-    ## Contributing
-    ${answers.contributors}
-
-    ## License
-    This project is licensed under the ${answers.license} License`
-
-}
 
 
 
