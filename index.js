@@ -29,6 +29,11 @@ function userQuestions() {
         },
         {
             type: "input",
+            message: "What are the instructions for usage?",
+            name: "usage"
+        },
+        {
+            type: "input",
             message: "How do you test this application?",
             name: "test"
         },
@@ -74,9 +79,9 @@ function generateReadme(answers) {
         * [Installation Instructions](#installation-instructions)
         * [Usage](#usage)
         * [Tests](#tests)
-        * Questions
+        * Questions(#questions)
         * [Contributing](#contributing)
-        * License
+        * License(#license)
 
 
     ## About this Project
