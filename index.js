@@ -82,7 +82,7 @@ userQuestions().then((answers) => {
     return writeFileAsync("README-demo.md", text);
   })
   .then(() => {
-    console.log("Successfully wrote to Readme");
+    console.log("README-demo.md successfully created!");
   })
   .catch((err) => {
     console.log(err);
